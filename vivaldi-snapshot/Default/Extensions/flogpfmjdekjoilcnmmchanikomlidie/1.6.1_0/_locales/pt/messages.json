@@ -1,0 +1,14 @@
+{
+   "clickToPop": {
+      "message": "popout"
+   },
+   "description": {
+      "message": "Widget to collect your yahoo! Mail"
+   },
+   "name": {
+      "message": "Yahoo Mail for Google Chrome"
+   },
+   "openFullMailBox": {
+      "message": "open full mail box in tab"
+   }
+}

@@ -1,0 +1,165 @@
+<?xml encoding="UTF-8" version="1.0"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<unique-id>1492499236241548-3</unique-id>
+	<command>exo-open --working-directory %f --launch xfce4-terminal</command>
+	<description>Example for a custom action</description>
+	<upper>-1</upper>
+	<lower>-1</lower>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon></icon>
+	<name>Copy Current Path</name>
+	<unique-id>1492499214677146-2</unique-id>
+	<command>echo -n %f | xclip -selection &quot;clipboard&quot;
+</command>
+	<description></description>
+	<upper>-1</upper>
+	<lower>-1</lower>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+<action>
+	<icon></icon>
+	<name>Thunar Root</name>
+	<unique-id>1492499178958566-1</unique-id>
+	<command>pkexec thunar %f</command>
+	<description></description>
+	<upper>-1</upper>
+	<lower>-1</lower>
+	<patterns>*</patterns>
+	<directories/>
+	<text-files/>
+</action>
+<action>
+	<icon></icon>
+	<name>Search</name>
+	<unique-id>1492589932613519-2</unique-id>
+	<command>catfish --fileman=thunar --hidden --path=%f
+</command>
+	<description></description>
+	<upper>-1</upper>
+	<lower>-1</lower>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon></icon>
+	<name>Move to Parent</name>
+	<unique-id>1492499251495083-4</unique-id>
+	<command>find . -mindepth 2 -type f -exec mv &quot;{}&quot; . \;
+</command>
+	<description></description>
+	<upper>-1</upper>
+	<lower>-1</lower>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+<action>
+	<icon></icon>
+	<name>Catfish (current)</name>
+	<unique-id>1492590009357503-3</unique-id>
+	<command>catfish --path=%f</command>
+	<description></description>
+	<upper>-1</upper>
+	<lower>-1</lower>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon></icon>
+	<name>Catfish (selected)</name>
+	<unique-id>1492590037611757-4</unique-id>
+	<command>catfish --path=%f%d</command>
+	<description></description>
+	<upper>-1</upper>
+	<lower>-1</lower>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon></icon>
+	<name>Create tar.gz</name>
+	<unique-id>1492590083455741-5</unique-id>
+	<command>tar czvf %n.tar.gz %n</command>
+	<description></description>
+	<upper>-1</upper>
+	<lower>-1</lower>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon></icon>
+	<name>Open as Root</name>
+	<unique-id>1492590133058497-7</unique-id>
+	<command>gksu thunar %f</command>
+	<description></description>
+	<upper>-1</upper>
+	<lower>-1</lower>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon></icon>
+	<name>set as bg</name>
+	<unique-id>1492590489185563-1</unique-id>
+	<command>xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/image-path -s %f</command>
+	<description></description>
+	<upper>-1</upper>
+	<lower>-1</lower>
+	<patterns>*</patterns>
+	<image-files/>
+</action>
+<action>
+	<icon></icon>
+	<name>edit as root</name>
+	<unique-id>1492590528147174-2</unique-id>
+	<command>gksu atom %f</command>
+	<description></description>
+	<upper>-1</upper>
+	<lower>-1</lower>
+	<patterns>*</patterns>
+	<text-files/>
+</action>
+<action>
+	<icon></icon>
+	<name>edit img as root</name>
+	<unique-id>1492590567362465-3</unique-id>
+	<command>gksu pinta %f</command>
+	<description></description>
+	<upper>-1</upper>
+	<lower>-1</lower>
+	<patterns>*</patterns>
+	<text-files/>
+</action>
+<action>
+	<icon></icon>
+	<name>Send to Phone</name>
+	<unique-id>1492895869353489-1</unique-id>
+	<command>kdeconnect-send %F </command>
+	<description></description>
+	<upper>-1</upper>
+	<lower>-1</lower>
+	<patterns>*</patterns>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+</actions>

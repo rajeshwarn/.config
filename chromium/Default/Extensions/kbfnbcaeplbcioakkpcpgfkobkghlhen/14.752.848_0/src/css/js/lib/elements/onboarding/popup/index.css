@@ -1,0 +1,204 @@
+._dc5843-onboardingPopup {
+  line-height: initial;
+  white-space: normal;
+  text-align: left;
+  float: initial;
+  clear: none;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: transparent;
+  box-shadow: none;
+  background-image: none;
+  background-position: 0% 0%;
+  background-size: auto auto;
+  background-repeat: repeat;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-attachment: scroll;
+  background-color: transparent;
+  font-family: inherit;
+  font-size: medium;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  visibility: visible;
+  position: static;
+  overflow: visible;
+  opacity: 1;
+  text-align: inherit;
+  text-shadow: none;
+  widows: 0;
+  height: auto;
+  width: auto;
+  min-width: auto;
+  max-width: auto;
+  max-height: auto;
+  max-height: auto;
+  white-space: normal;
+  word-spacing: normal;
+  z-index: auto;
+  color: transparent;
+  position: absolute !important;
+  z-index: 999999 !important;
+  transition: opacity 0.2s cubic-bezier(0.255, 0.89, 0.25, 1.135), transform 0.2s cubic-bezier(0.255, 0.89, 0.25, 1.135) !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 350px !important;
+  height: 150px !important;
+  display: inline-block !important;
+  background: #fff !important;
+  border: 1px solid rgba(76,85,101,0.01) !important;
+  box-shadow: 0 2px 7px 0 rgba(76,85,101,0.3) !important;
+  border-radius: 5px !important;
+  font-family: "SF UI Text", system, -apple-system, ".SFNSDisplay-Regular", BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
+  box-sizing: border-box !important;
+  padding: 28px 0 0 30px !important;
+  -webkit-font-smoothing: subpixel-antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  opacity: 0;
+}
+
+._dc5843-onboardingPopup div,
+._dc5843-onboardingPopup span,
+._dc5843-onboardingPopup h1,
+._dc5843-onboardingPopup h2,
+._dc5843-onboardingPopup h3,
+._dc5843-onboardingPopup h4,
+._dc5843-onboardingPopup h5,
+._dc5843-onboardingPopup h6,
+._dc5843-onboardingPopup p,
+._dc5843-onboardingPopup a,
+._dc5843-onboardingPopup a[href],
+._dc5843-onboardingPopup img,
+._dc5843-onboardingPopup b,
+._dc5843-onboardingPopup u,
+._dc5843-onboardingPopup i,
+._dc5843-onboardingPopup ul,
+._dc5843-onboardingPopup li,
+._dc5843-onboardingPopup form,
+._dc5843-onboardingPopup label,
+._dc5843-onboardingPopup canvas,
+._dc5843-onboardingPopup footer,
+._dc5843-onboardingPopup header,
+._dc5843-onboardingPopup nav,
+._dc5843-onboardingPopup section,
+._dc5843-onboardingPopup input[type="date"],
+._dc5843-onboardingPopup input[type="email"],
+._dc5843-onboardingPopup input[type="number"],
+._dc5843-onboardingPopup input[type="password"],
+._dc5843-onboardingPopup input[type="search"],
+._dc5843-onboardingPopup input[type="tel"],
+._dc5843-onboardingPopup input[type="text"],
+._dc5843-onboardingPopup input[type="url"],
+._dc5843-onboardingPopup button,
+._dc5843-onboardingPopup button[type="button"],
+._dc5843-onboardingPopup button[type="submit"] {
+  line-height: initial;
+  white-space: normal;
+  text-align: left;
+  float: initial;
+  clear: none;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: transparent;
+  box-shadow: none;
+  background-image: none;
+  background-position: 0% 0%;
+  background-size: auto auto;
+  background-repeat: repeat;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-attachment: scroll;
+  background-color: transparent;
+  font-family: inherit;
+  font-size: medium;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  visibility: visible;
+  position: static;
+  overflow: visible;
+  opacity: 1;
+  text-align: inherit;
+  text-shadow: none;
+  widows: 0;
+  height: auto;
+  width: auto;
+  min-width: auto;
+  max-width: auto;
+  max-height: auto;
+  max-height: auto;
+  white-space: normal;
+  word-spacing: normal;
+  z-index: auto;
+}
+
+._dc5843-onboardingPopup span {
+  display: inline;
+}
+
+._dc5843-onboardingPopup:after {
+  content: '' !important;
+  position: absolute !important;
+  display: inline-block !important;
+  top: 24px !important;
+  right: 22px !important;
+  width: 64px !important;
+  height: 64px !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3EIllustration%3C/title%3E%3Cdefs%3E%3Cpath d='M17.972 49c16.202-6.448 17.862-21.658 17.975-22.967.113-1.309.013-21.558.013-21.558-.007-1.66-1.351-3.182-2.995-3.382 0 0-7.685-1.093-14.993-1.093C10.665 0 2.965 1.095 2.965 1.095 1.328 1.301 0 2.805 0 4.468v21.567S1.755 42.545 17.972 49z' id='a'/%3E%3C/defs%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M61.143 48H16.857C15.28 48 14 46.7 14 45.095V6.905C14 5.301 15.279 4 16.857 4h44.286C62.72 4 64 5.3 64 6.905v38.19C64 46.699 62.721 48 61.143 48' fill='%23EDEDF3'/%3E%3Cpath d='M58.143 45H13.857C12.28 45 11 43.7 11 42.095V3.905C11 2.301 12.28 1 13.857 1h44.286C59.72 1 61 2.3 61 3.905v38.19C61 43.699 59.72 45 58.143 45' fill='%23FFF'/%3E%3Cpath d='M58.143 45H13.857C12.28 45 11 43.7 11 42.095V3.905C11 2.301 12.28 1 13.857 1h44.286C59.72 1 61 2.3 61 3.905v38.19C61 43.699 59.72 45 58.143 45z' stroke='%236F7787' stroke-width='1.5' stroke-linecap='round'/%3E%3Cpath d='M61 7H11V3.73C11 2.224 12.28 1 13.857 1h44.286C59.72 1 61 2.223 61 3.73V7z' fill='%236F7787'/%3E%3Cpath d='M15 19h42M15 24h42' stroke='%23D2D4DE' stroke-width='1.5' stroke-linecap='round'/%3E%3Cpath d='M57 36.462C57 38.382 55.367 40 53.445 40 51.523 40 50 38.381 50 36.462A3.437 3.437 0 0 1 53.445 33C55.367 33 57 34.542 57 36.462' fill='%236CD898'/%3E%3Cpath d='M59 4a1 1 0 1 1-2 0 1 1 0 0 1 2 0M55 4a1 1 0 1 1-2 0 1 1 0 0 1 2 0M52 4a1 1 0 1 1-2 0 1 1 0 0 1 2 0M3 40.503C3.106 41.753 4.709 56.676 20.499 63 36.274 56.683 37.889 41.784 38 40.501V16.438C34.817 15.956 27.614 15 20.5 15c-7.115 0-14.317.956-17.5 1.438v24.065z' fill='%23FFF'/%3E%3Cg transform='translate(0 12)'%3E%3Cmask id='b' fill='%23fff'%3E%3Cuse xlink:href='%23a'/%3E%3C/mask%3E%3Cuse fill='%23D6B6F0' xlink:href='%23a'/%3E%3Cpath fill='%23CAA3E9' mask='url(%23b)' d='M-12.8-7.778h32v59.889h-32z'/%3E%3C/g%3E%3Cpath d='M3 40.503C3.106 41.753 4.709 56.676 20.499 63 36.274 56.683 37.889 41.784 38 40.501V18.438c0-1.105-.889-2.118-1.983-2.256 0 0-8.403-1.182-15.517-1.182-7.115 0-15.53 1.184-15.53 1.184-1.088.14-1.97 1.153-1.97 2.254v22.065z' stroke='%236F7787' stroke-width='1.5' stroke-linecap='round'/%3E%3Cpath d='M10 34.5a9.5 9.5 0 0 1 9.5-9.5 9.5 9.5 0 0 1 9.5 9.5 9.5 9.5 0 0 1-9.5 9.5 9.5 9.5 0 0 1-9.5-9.5zm11.251 1.264a.643.643 0 0 0-.631.762c.056.31.348.523.663.523h.993l.576-.081c-.921 1.351-2.52 1.973-4.27 1.699-1.423-.224-2.646-1.187-3.162-2.532-1.17-3.054 1.06-5.969 3.965-5.969 1.515 0 2.843.886 3.604 1.957.22.31.603.398.895.196a.634.634 0 0 0 .187-.844h.004a5.562 5.562 0 0 0-5.074-2.554c-2.772.186-5.015 2.454-5.174 5.227-.185 3.227 2.374 5.862 5.558 5.862a5.51 5.51 0 0 0 4.19-1.906l-.121.675v.611c0 .315.212.607.523.663a.643.643 0 0 0 .762-.631v-3.658H21.25z' fill='%23FFF'/%3E%3C/g%3E%3C/svg%3E") !important;
+  background-size: 64px !important;
+}
+
+._dc5843-onboardingPopup ._dc5843-text,
+._dc5843-onboardingPopup ._dc5843-title {
+  margin: 0 !important;
+  color: #4c5565 !important;
+  font-size: 14px !important;
+  line-height: 24px !important;
+  margin-bottom: 16px !important;
+}
+
+._dc5843-onboardingPopup ._dc5843-title {
+  margin-bottom: 0 !important;
+  font-weight: bold !important;
+}
+
+._dc5843-onboardingPopup ._dc5843-link {
+  font-size: 12px !important;
+  color: #6f7787 !important;
+  letter-spacing: 0.5px !important;
+  line-height: 22px !important;
+  background: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  outline: none !important;
+  text-transform: uppercase !important;
+  cursor: pointer !important;
+  margin-left: 14px !important;
+}
+
+._dc5843-onboardingPopup ._dc5843-link:hover {
+  color: #008464 !important;
+}
+
+._dc5843-onboardingPopup ._dc5843-popupFooter {
+  position: absolute !important;
+  bottom: -12px !important;
+  right: 10px !important;
+  transform: rotate(45deg) scale(1.5, 0.7) !important;
+  text-shadow: rgba(76,85,101,0.25) 2px 1px 2px !important;
+  border: 1px solid rgba(76,85,101,0.01) !important;
+  color: #fff !important;
+}
+
+._dc5843-onboardingPopup ._dc5843-popupFooter._dc5843-isFliped {
+  bottom: 140px !important;
+  transform: rotate(-220deg) scale(1.5, 0.7) !important;
+  text-shadow: rgba(76,85,101,0.247) -2px 1px 2px !important;
+}

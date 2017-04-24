@@ -1,0 +1,14 @@
+{
+   "clickToPop": {
+      "message": "popout"
+   },
+   "description": {
+      "message": "Best Widget to check your yahoo Mail in Chrome! Also you can access yahoo news, weather and other services in a easy click! "
+   },
+   "name": {
+      "message": "Yahoo Mail Widget"
+   },
+   "openFullMailBox": {
+      "message": "open full mail box in tab"
+   }
+}

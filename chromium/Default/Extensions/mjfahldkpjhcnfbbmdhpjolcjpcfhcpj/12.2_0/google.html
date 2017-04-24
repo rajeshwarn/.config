@@ -1,0 +1,84 @@
+<!-- Copyright (c) 2017 - Martin Sermak -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAQlBMVEUAAADHIxfrMSHBHhXsLSH/2kT/qy7HIBbvMiPHIBbvMyP/30r/pCjDHBPsKyIAqlbuMyL/3UT/pyzuLSHBHRUieP+qsjEVAAAAD3RSTlMA9fTPzszLlpN/fUhGNzW5O17cAAAASklEQVQY05XINw7AMAxDUaX3SuX+V41EBDE0ePBbCH7JGOtqkGQGoKrTd/cWHkyzMYCUGC66KYWuj2ERWUPw/cNhfE9TEB5TEKIXdTgI4tBqLv0AAAAASUVORK5CYII=" />
+	<title>Google</title>
+	<style type="text/css">
+		@import url('google.css');
+		@font-face { font-family:"Droid Sans"; src:url("droid.woff") format("woff"); font-weight:normal; font-style:normal; }
+		* { font-family:"Droid Sans"; -webkit-appearance:none; zoom:100%; }
+		body { font-size:15px; color:#000; background:#FFF; white-space:nowrap; text-align:center; cursor:default; }
+		.switch { position:absolute; top:10px; left:10px; background:#666; width:15px; height:15px; border-radius:50%; }
+		.switch:hover:after { position:absolute; top:20px; width:100px; line-height:100px; font-size:16px; color:#111; border:1px dashed #999; border-radius:60px; content:"Switch"; }
+		.time { position:absolute; white-space:nowrap; bottom:10px; left:15px; color:#666; user-select:none; }
+		.search { font-size:18px; margin:0px auto; left:0px; right:0px; width:700px; color:#000; background-color:#FFF; border-width:0px 0px 1px 0px; border-color:#999; padding:5px; outline:0px; }
+		.submit { font-size:20px; margin:30px auto; left:0px; right:0px; width:110px; color:#000; background-color:#EEE; border:1px solid #999; border-radius:16px; padding:4px; outline:0px; }
+		.submit:hover, .submit:focus { background-color:#FFF; cursor:pointer; }
+		.main { width:700px; margin:250px auto; left:0px; right:0px; }
+		.logo:hover { margin-top:-50px; padding-bottom:50px; }
+		.link01 { display:inline-block; left:0px; top:0px; width:72px; height:55px; }
+		.link02 { display:inline-block; left:72px; top:0px; width:72px; height:55px; }
+		.link03 { display:inline-block; left:144px; top:0px; width:72px; height:55px; }
+		.link04 { display:inline-block; left:216px; top:0px; width:72px; height:55px; }
+		.link05 { display:inline-block; left:288px; top:0px; width:72px; height:55px; }
+		.link06 { display:inline-block; left:360px; top:0px; width:72px; height:55px; }
+		.link07 { display:inline-block; left:432px; top:0px; width:72px; height:55px; }
+		.link08 { display:inline-block; left:504px; top:0px; width:72px; height:55px; }
+		.link09 { display:inline-block; left:576px; top:0px; width:72px; height:55px; }
+		.link10 { display:inline-block; left:648px; top:0px; width:72px; height:55px; }
+		.link11 { display:inline-block; left:720px; top:0px; width:72px; height:55px; }
+		.link12 { display:inline-block; left:792px; top:0px; width:72px; height:55px; }
+		.link13 { display:inline-block; left:864px; top:0px; width:72px; height:55px; }
+		.link14 { display:inline-block; left:936px; top:0px; width:72px; height:55px; }
+		.link01:hover:after { position:absolute; top:80px; width:100px; line-height:100px; font-size:16px; color:#111; border:1px dashed #999; border-radius:60px; content:"Account"; }
+		.link02:hover:after { position:absolute; top:80px; width:100px; line-height:100px; font-size:16px; color:#111; border:1px dashed #999; border-radius:60px; content:"Maps"; }
+		.link03:hover:after { position:absolute; top:80px; width:100px; line-height:100px; font-size:16px; color:#111; border:1px dashed #999; border-radius:60px; content:"YouTube"; }
+		.link04:hover:after { position:absolute; top:80px; width:100px; line-height:100px; font-size:16px; color:#111; border:1px dashed #999; border-radius:60px; content:"Play"; }
+		.link05:hover:after { position:absolute; top:80px; width:100px; line-height:100px; font-size:16px; color:#111; border:1px dashed #999; border-radius:60px; content:"News"; }
+		.link06:hover:after { position:absolute; top:80px; width:100px; line-height:100px; font-size:16px; color:#111; border:1px dashed #999; border-radius:60px; content:"Gmail"; }
+		.link07:hover:after { position:absolute; top:80px; width:100px; line-height:100px; font-size:16px; color:#111; border:1px dashed #999; border-radius:60px; content:"Contacts"; }
+		.link08:hover:after { position:absolute; top:80px; width:100px; line-height:100px; font-size:16px; color:#111; border:1px dashed #999; border-radius:60px; content:"Drive"; }
+		.link09:hover:after { position:absolute; top:80px; width:100px; line-height:100px; font-size:16px; color:#111; border:1px dashed #999; border-radius:60px; content:"Calendar"; }
+		.link10:hover:after { position:absolute; top:80px; width:100px; line-height:100px; font-size:16px; color:#111; border:1px dashed #999; border-radius:60px; content:"Docs"; }
+		.link11:hover:after { position:absolute; top:80px; width:100px; line-height:100px; font-size:16px; color:#111; border:1px dashed #999; border-radius:60px; content:"Translate"; }
+		.link12:hover:after { position:absolute; top:80px; width:100px; line-height:100px; font-size:16px; color:#111; border:1px dashed #999; border-radius:60px; content:"Images"; }
+		.link13:hover:after { position:absolute; top:80px; width:100px; line-height:100px; font-size:16px; color:#111; border:1px dashed #999; border-radius:60px; content:"Hangouts"; }
+		.link14:hover:after { position:absolute; top:80px; width:100px; line-height:100px; font-size:16px; color:#111; border:1px dashed #999; border-radius:60px; content:"Google+"; }
+	</style>
+</head>
+
+<body>
+	<div id="link" class="link">
+		<a class="link01" href="https://myaccount.google.com"></a>
+		<a class="link02" href="https://maps.google.com/maps"></a>
+		<a class="link03" href="https://www.youtube.com"></a>
+		<a class="link04" href="https://play.google.com"></a>
+		<a class="link05" href="https://news.google.com/nwshp"></a>
+		<a class="link06" href="https://accounts.google.com/ServiceLogin?continue=https://mail.google.com/mail"></a>
+		<a class="link07" href="https://accounts.google.com/ServiceLogin?continue=https://www.google.com/contacts"></a>
+		<a class="link08" href="https://accounts.google.com/ServiceLogin?continue=https://drive.google.com"></a>
+		<a class="link09" href="https://accounts.google.com/ServiceLogin?continue=https://www.google.com/calendar"></a>
+		<a class="link10" href="https://accounts.google.com/ServiceLogin?continue=https://docs.google.com/document"></a>
+		<a class="link11" href="https://translate.google.com"></a>
+		<a class="link12" href="https://images.google.com"></a>
+		<a class="link13" href="https://hangouts.google.com"></a>
+		<a class="link14" href="https://plus.google.com"></a>
+	</div>
+	<div class="main">
+		<div id="logo" class="logo"></div>
+		<form id="google" action="https://www.google.com/search" method="get">
+			<input type="hidden" name="gws_rd" value="cr" />
+			<input id="search" class="search" maxlength="512" name="q" autocomplete="off" type="text" value="" placeholder=" Search Google ..." dir="ltr" spellcheck="false" autofocus />
+			<br><input id="submit" class="submit" type="submit" value="Search" />
+		</form>
+	</div>
+	<a class="switch" href="boogle.html"></a>
+	<div id="time" class="time"></div>
+	<script type="text/javascript" src="google.js"></script>
+</body>
+
+</html>

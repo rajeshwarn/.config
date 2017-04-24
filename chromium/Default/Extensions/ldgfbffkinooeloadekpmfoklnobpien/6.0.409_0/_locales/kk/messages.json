@@ -1,0 +1,150 @@
+{
+   "alreadyInCollection": {
+      "description": "Жинақта бүл бар",
+      "message": "Жинақта бүл бар"
+   },
+   "appDesc": {
+      "description": "\"Save Button\" for Web",
+      "message": "\"Save Button\" for Web"
+   },
+   "appName": {
+      "description": "Raindrop.io: \"Save Button\" for Web",
+      "message": "Raindrop.io: \"Save Button\" for Web"
+   },
+   "articleRemovedPermament": {
+      "description": "Мақала жойылды",
+      "message": "Мақала жойылды"
+   },
+   "articleSaved": {
+      "description": "Мақала сақталды",
+      "message": "Мақала сақталды"
+   },
+   "edit": {
+      "description": "Өзгерту",
+      "message": "Өзгерту"
+   },
+   "error": {
+      "description": "Белгісіз қате. Қайталап көріңіз!",
+      "message": "Белгісіз қате. Қайталап көріңіз!"
+   },
+   "findBookmark": {
+      "description": "Бетбелгіні табу",
+      "message": "Бетбелгіні табу"
+   },
+   "hotkey": {
+      "description": "Ыстық батырма",
+      "message": "Ыстық батырма"
+   },
+   "imageRemovedPermament": {
+      "description": "Фото жойылды",
+      "message": "Фото жойылды"
+   },
+   "imageSaved": {
+      "description": "Фото сақталды",
+      "message": "Фото сақталды"
+   },
+   "inCollection": {
+      "description": "Жинақта",
+      "message": "Жинақта"
+   },
+   "linkRemovedPermament": {
+      "description": "Сілтеме жойылды",
+      "message": "Сілтеме жойылды"
+   },
+   "linkSaved": {
+      "description": "Сілтеме сақталды",
+      "message": "Сілтеме сақталды"
+   },
+   "loading": {
+      "description": "Жүктелуде",
+      "message": "Жүктелуде"
+   },
+   "logOut": {
+      "description": "Шығу",
+      "message": "Шығу"
+   },
+   "myBookmarks": {
+      "description": "Менің бетбелгілерім",
+      "message": "Менің бетбелгілерім"
+   },
+   "myBookmarksRaindrop": {
+      "description": "Менің бетбелгілерім (Raindrop.io)",
+      "message": "Менің бетбелгілерім (Raindrop.io)"
+   },
+   "open": {
+      "description": "Open",
+      "message": "Open"
+   },
+   "pleaseLogin": {
+      "description": "Өтініш, жинақтармен жұмыс бастау үшін еніңіз!",
+      "message": "Өтініш, жинақтармен жұмыс бастау үшін еніңіз!"
+   },
+   "remove": {
+      "description": "Жою",
+      "message": "Жою"
+   },
+   "restore": {
+      "description": "Restore",
+      "message": "Restore"
+   },
+   "save": {
+      "description": "Сақтау",
+      "message": "Сақтау"
+   },
+   "saveError": {
+      "description": "Сақталған жоқ!",
+      "message": "Сақталған жоқ!"
+   },
+   "saveImage": {
+      "description": "Суретті Raindrop.io-ға сақтау",
+      "message": "Суретті Raindrop.io-ға сақтау"
+   },
+   "saveLink": {
+      "description": "Парақты Raindrop.io-ға сақтау",
+      "message": "Парақты Raindrop.io-ға сақтау"
+   },
+   "savePage": {
+      "description": "Парақты Raindrop.io-ға сақтау",
+      "message": "Парақты Raindrop.io-ға сақтау"
+   },
+   "saveToRaindrop": {
+      "description": "Сақтау Raindrop.io-ға",
+      "message": "Сақтау Raindrop.io-ға"
+   },
+   "settings": {
+      "description": "Баптаулар",
+      "message": "Баптаулар"
+   },
+   "signIn": {
+      "description": "Кіру",
+      "message": "Кіру"
+   },
+   "signUp": {
+      "description": "Тіркелу",
+      "message": "Тіркелу"
+   },
+   "supportOnlyUrls": {
+      "description": "Сіз тек http және https протоколды URL-дарды ғана сақтай аласыз!",
+      "message": "Сіз тек http және https протоколды URL-дарды ғана сақтай аласыз!"
+   },
+   "toRaindrop": {
+      "description": "Raindrop.io-ға",
+      "message": "Raindrop.io-ға"
+   },
+   "tryAgain": {
+      "description": "Қайталап көріңіз",
+      "message": "Қайталап көріңіз"
+   },
+   "unsorted": {
+      "description": "Кіріс жәшігі",
+      "message": "Кіріс жәшігі"
+   },
+   "videoRemovedPermament": {
+      "description": "Контент жойылды",
+      "message": "Контент жойылды"
+   },
+   "videoSaved": {
+      "description": "Контент сақталды",
+      "message": "Контент сақталды"
+   }
+}

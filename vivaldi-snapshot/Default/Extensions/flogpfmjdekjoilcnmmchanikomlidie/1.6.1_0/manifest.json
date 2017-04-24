@@ -1,0 +1,20 @@
+{
+   "browser_action": {
+      "default_icon": "images/dropbox.png",
+      "default_popup": "dropbox.html",
+      "default_title": "Dropbox Widget"
+   },
+   "default_locale": "en",
+   "description": "DropBox Widget to Access your files in DropBox",
+   "icons": {
+      "128": "images/dropbox.png",
+      "16": "images/dropbox.png",
+      "48": "images/dropbox.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbSRs2k/vCWe75RdHaAsWwPezDVJLzsHr8WOLygLrhQ0L4ojsZI+iLbK6V++vfljMqDrscpZ3rxIAcNgjRuIDZu10V7szSjHK5YXrJuu4FKoKm3fod7zMwSlYTpeX5elaJCxJfRjjcTnL9nZW30U3zfC/jgWEEkwy/7wj1igG7dQIDAQAB",
+   "manifest_version": 2,
+   "name": "EasyDrop",
+   "permissions": [ "http://*.dropbox.com/", "https://*.dropbox.com/", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6.1"
+}

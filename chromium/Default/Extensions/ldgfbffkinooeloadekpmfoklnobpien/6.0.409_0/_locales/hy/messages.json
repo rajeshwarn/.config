@@ -1,0 +1,150 @@
+{
+   "alreadyInCollection": {
+      "description": "Արդեն առկա է հավաքածուի մեջ",
+      "message": "Արդեն առկա է հավաքածուի մեջ"
+   },
+   "appDesc": {
+      "description": "\"Save Button\" for Web",
+      "message": "\"Save Button\" for Web"
+   },
+   "appName": {
+      "description": "Raindrop.io: \"Save Button\" for Web",
+      "message": "Raindrop.io: \"Save Button\" for Web"
+   },
+   "articleRemovedPermament": {
+      "description": "Հոդվածը ջնջվեց",
+      "message": "Հոդվածը ջնջվեց"
+   },
+   "articleSaved": {
+      "description": "Հոդվածը պահպանվեց",
+      "message": "Հոդվածը պահպանվեց"
+   },
+   "edit": {
+      "description": "Խմբագրել",
+      "message": "Խմբագրել"
+   },
+   "error": {
+      "description": "Տեղի ունեցավ սխալ։ Փորձեք ևս մեկ անգամ։",
+      "message": "Տեղի ունեցավ սխալ։ Փորձեք ևս մեկ անգամ։"
+   },
+   "findBookmark": {
+      "description": "Գտնել էջանշան",
+      "message": "Գտնել էջանշան"
+   },
+   "hotkey": {
+      "description": "Արագ կոճակ",
+      "message": "Արագ կոճակ"
+   },
+   "imageRemovedPermament": {
+      "description": "Պատկերը ջնջվեց",
+      "message": "Պատկերը ջնջվեց"
+   },
+   "imageSaved": {
+      "description": "Նկարը պահպանվեց",
+      "message": "Նկարը պահպանվեց"
+   },
+   "inCollection": {
+      "description": "Հավաքածուի մեջ",
+      "message": "Հավաքածուի մեջ"
+   },
+   "linkRemovedPermament": {
+      "description": "Հղումը ջնջվեց",
+      "message": "Հղումը ջնջվեց"
+   },
+   "linkSaved": {
+      "description": "Հղումը պահպանվեց",
+      "message": "Հղումը պահպանվեց"
+   },
+   "loading": {
+      "description": "Բեռնում",
+      "message": "Բեռնում"
+   },
+   "logOut": {
+      "description": "Դուրս գալ",
+      "message": "Դուրս գալ"
+   },
+   "myBookmarks": {
+      "description": "Իմ էջանշանները",
+      "message": "Իմ էջանշանները"
+   },
+   "myBookmarksRaindrop": {
+      "description": "Իմ էջանշանները (Raindrop.io)",
+      "message": "Իմ էջանշանները (Raindrop.io)"
+   },
+   "open": {
+      "description": "Open",
+      "message": "Open"
+   },
+   "pleaseLogin": {
+      "description": "Օգտվելու համար, խնդրում ենք մուտք գործել։",
+      "message": "Օգտվելու համար, խնդրում ենք մուտք գործել։"
+   },
+   "remove": {
+      "description": "Ջնջել",
+      "message": "Ջնջել"
+   },
+   "restore": {
+      "description": "Restore",
+      "message": "Restore"
+   },
+   "save": {
+      "description": "Պահպանել",
+      "message": "Պահպանել"
+   },
+   "saveError": {
+      "description": "Պահպանման ընթացքում տեղի ունեցավ սխալ",
+      "message": "Պահպանման ընթացքում տեղի ունեցավ սխալ"
+   },
+   "saveImage": {
+      "description": "Պահպանել նկարը Raindrop.io-ում",
+      "message": "Պահպանել նկարը Raindrop.io-ում"
+   },
+   "saveLink": {
+      "description": "Պահպանել էջը Raindrop.io-ում",
+      "message": "Պահպանել էջը Raindrop.io-ում"
+   },
+   "savePage": {
+      "description": "Պահպանել էջը Raindrop.io-ում",
+      "message": "Պահպանել էջը Raindrop.io-ում"
+   },
+   "saveToRaindrop": {
+      "description": "Պահպանել Raindrop.io-ում",
+      "message": "Պահպանել Raindrop.io-ում"
+   },
+   "settings": {
+      "description": "Կարգավորում",
+      "message": "Կարգավորում"
+   },
+   "signIn": {
+      "description": "Մուտք",
+      "message": "Մուտք"
+   },
+   "signUp": {
+      "description": "Գրանցվել",
+      "message": "Գրանցվել"
+   },
+   "supportOnlyUrls": {
+      "description": "Դուք կարող եք պահպանել միայն http և https հաղորդակարգ ունեցող հղումներ։",
+      "message": "Դուք կարող եք պահպանել միայն http և https հաղորդակարգ ունեցող հղումներ։"
+   },
+   "toRaindrop": {
+      "description": "Raindrop.io-ում",
+      "message": "Raindrop.io-ում"
+   },
+   "tryAgain": {
+      "description": "Փորձել ևս մեկ անգամ",
+      "message": "Փորձել ևս մեկ անգամ"
+   },
+   "unsorted": {
+      "description": "Մուտքայիններ",
+      "message": "Մուտքայիններ"
+   },
+   "videoRemovedPermament": {
+      "description": "Բովանդակությունը ջնջվեց",
+      "message": "Բովանդակությունը ջնջվեց"
+   },
+   "videoSaved": {
+      "description": "Բովանդակությունը պահպանվեց",
+      "message": "Բովանդակությունը պահպանվեց"
+   }
+}

@@ -1,0 +1,18 @@
+[Added Associations]
+inode/directory=exo-file-manager.desktop
+x-scheme-handler/trash=exo-file-manager.desktop
+application/x-7z-compressed=org.gnome.FileRoller.desktop;
+application/zip=org.gnome.FileRoller.desktop;
+application/vnd.rar=org.gnome.FileRoller.desktop;
+video/mp4=mplayer.desktop;
+image/jpeg=feh.desktop;
+image/png=feh.desktop;
+application/x-shellscript=geany.desktop;
+application/x-xz-compressed-tar=org.gnome.FileRoller.desktop;
+video/x-msvideo=smplayer_enqueue.desktop;
+application/x-compressed-tar=org.gnome.FileRoller.desktop;
+text/markdown=geany.desktop;
+text/plain=geany.desktop;
+application/x-theme=panel-desktop-handler.desktop;
+application/xml=geany.desktop;
+video/x-matroska=mplayer.desktop;

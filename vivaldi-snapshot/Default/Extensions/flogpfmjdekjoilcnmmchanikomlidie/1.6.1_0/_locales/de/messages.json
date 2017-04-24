@@ -1,0 +1,14 @@
+{
+   "clickToPop": {
+      "message": "popout"
+   },
+   "description": {
+      "message": "Widget den Zugriff auf Yahoo Mail für Google Chrome.Leicht und einfach zu Yahoo Mail und Ihre E-Mail Box ungelesene zählen zu überprüfen."
+   },
+   "name": {
+      "message": "Yahoo Mail für Chrome"
+   },
+   "openFullMailBox": {
+      "message": "open full mail box in tab"
+   }
+}

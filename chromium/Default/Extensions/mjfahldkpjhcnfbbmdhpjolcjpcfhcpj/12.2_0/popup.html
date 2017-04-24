@@ -1,0 +1,55 @@
+<!-- Copyright (c) 2017 - Martin Sermak -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAQlBMVEUAAADHIxfrMSHBHhXsLSH/2kT/qy7HIBbvMiPHIBbvMyP/30r/pCjDHBPsKyIAqlbuMyL/3UT/pyzuLSHBHRUieP+qsjEVAAAAD3RSTlMA9fTPzszLlpN/fUhGNzW5O17cAAAASklEQVQY05XINw7AMAxDUaX3SuX+V41EBDE0ePBbCH7JGOtqkGQGoKrTd/cWHkyzMYCUGC66KYWuj2ERWUPw/cNhfE9TEB5TEKIXdTgI4tBqLv0AAAAASUVORK5CYII=" />
+	<title>Popup</title>
+	<style type="text/css">
+		@font-face { font-family:"Droid Sans"; src:url("droid.woff") format("woff"); font-weight:normal; font-style:normal; }
+		* { font-family:"Droid Sans"; -webkit-appearance:none; zoom:reset; }
+		body { font-size:14px; color:#000; background:#FFF; white-space:nowrap; text-align:center; cursor:default; }
+		.img { display:inline-block; width:65px; margin-top:8px; -webkit-filter:saturate(75%); }
+		.img:hover, .img:focus { -webkit-filter:saturate(250%); cursor:pointer; }
+	</style>
+</head>
+
+<body>
+	<div class="img" id="settings">
+		<img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAGFBMVEVWmTT9//1nuDa25p/M7rnn+9l4zFCT13XI3wVVAAABBUlEQVQ4y9WRuw6CQBBFV3zQemHVdtXYg4mxBWJiK4kfgPEHIPH/4yzL7gBCZ8MUZMjdM3ceYpLxvt1tOr+VLaECQpN5gGwJPoCkzvYyxhDi4Zwj6SGFBsITYit4yiCRBrI8iCPbR0CfJbDWDiccYcssQMiMBO1AQMACpSkJ5KAB5UYC1AIkGGDb7kjmADZe7VBwr2jicbAATwfUCDsYE0bqljhiiwh2MLNfHCL68WqQn1g1iPgDUo4gvhxBKgwjPkJ26QLRYGNvhION7aEBi0gWUg00SDZHyc7YuvHpWdKqtHbj0xESriSV21gh0ogrlbyx3QfKXTbrLHnnfq6dYz4LMb34AqkYKt2hiTGOAAAAAElFTkSuQmCC">
+		<div>Settings</div>
+	</div>
+	<div class="img" id="extend">
+		<img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAGFBMVEVWmTT////4/+6k3Yl0y0XE7rLh+NaLz2fkMcWVAAAAl0lEQVQ4y93QMQ6CQBCF4QezYOtDxRbJ2rM38AgQE2uNFzDevxCn3J0tKOFvpnj5ssli1blH/zaHifQwqsnmtgS4HKjI43xkjIeSfM4ndPFQqBCmg74RuI+HQNILEyH8dyFHA2ifFGhtDnQLQTuYwAMW0D/cHtjlQN0MXwugOEAUJMMZzgIoT6gsAOF9UpD0ogKD9FesvB9YWhdfQ/+SRQAAAABJRU5ErkJggg==">
+		<div>Extend</div>
+	</div>
+	<div class="img" id="download">
+		<img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAGFBMVEVWmTT///+m3Yx2y0TM7rvu/97d/duIzGeBQiXgAAAAbUlEQVQ4y+3PMQqAMBBE0SVBrNNYh8UDCLmBeAFv4BG8fyXExVmZStQuvx1eMfJDsdR4CKmW29CGp0OvOp7DrLr7ZU1Xw410GDZBIAAgAEwAmACAABAxQASAiAEiBpgYeFVYXJlv8/lYXJN83AGpEB8XBypacQAAAABJRU5ErkJggg==">
+		<div>Download</div>
+	</div>
+	<div class="img" id="history">
+		<img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAGFBMVEVWmTT+//2t3ZGN0WXe89HH7rZnuT9vzEr3B7w0AAAA50lEQVQ4y91TyxKCMAxEQLyyyOMKo3iG8QfsOCNX+AP5A/3/izYh2FJmvLMX0t0maTKLtz3UCunFpQ8KGndHGMB4LPg3kJ6uNYDS4gMgoa9CskjIOPAXKXyM6Uph8HsqEGkhAqxKvQhea9ZSoFFICEEfxvQkYiIcZ95HzAKnp7MQ4mYI1a/7jvv5LIym0JCQT6cX0y00+q9QyDVpraGDTARj4zS0KqWULAR4UpAsmg/IOah6+7mhJAcZDzijk2BsaCUuZIkuZO0uIsB2QyldUNgFXDMwDPv8MZxj0W7d1KvDnaF/g63hA0mTGZDB/XthAAAAAElFTkSuQmCC">
+		<div>History</div>
+	</div>
+	<div class="img" id="bookmark">
+		<img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAGFBMVEVWmTT///+Lz2Ct45jc9M92zE1ntzZWqjQtyCY9AAAAq0lEQVQ4y83SMQ7CMAwFUEMgrITSshYkdsrATG/QcgKOAFLvLyzw9L+sKAyIL2XJUxLHifwyt8M7R4J9+uSEsDDYISwNKsEkC0FncPdg8KAtXcFn9E5VK5vfIsy9CwaDBuFpcPW623pFPWA+5s6uEWYGa4SRXjbXwlTUKf4K3MJNKfBW8fvvNuTficviverJro5LGukVKKNCSBVDVJBOgTIpBD2cc9Fxln/IC8l8HFnNVKa8AAAAAElFTkSuQmCC">
+		<div>Bookmark</div>
+	</div>
+	<div class="img" id="options">
+		<img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAGFBMVEU0eJn///8zirRnr9JKmcvU7va73e7M3e5DnknXAAAAtElEQVQ4y9VT2w3DIAwkCf3vJYT+0kwQpA5A1QXCBt1/ilJVtTBG8nfuB8QJnx9nc1qM29YnBuDoEk/gKl+DMRFwJSB/n3z4EosZc2JEhLMZ8KFc2AcAGQUrgPrLHQSewaUm3nVtNRG4OME1VROOpmrCXEu8Mgj+EVrpNP3O9U9YUo08L0uFDRqhhBLiUNPlLZnVlsgmam2Xg1JGK82w9+yTIhZuuBsZbtcsyk2trYFcnNPiAwIUIUdv7YMEAAAAAElFTkSuQmCC">
+		<div>Options</div>
+	</div>
+	<div class="img" id="translate">
+		<img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAGFBMVEU0eJn///8ziber1OdTn8zW7PiAut00eKpeV+TXAAAA50lEQVQ4y82Svw6CMBCHG//g6gllBkVmSnwAJBhXERLX8gY4+P62DeGOUkcTvon8Pnp3uZYtn111d+YrAZC7xBUUheMAaIK5WBvBp+GNFywGQ2H97KsWhoyKTgWyc4haBQ+X0MF+KCVn4g2GyO6ReSb3GeUDwHsmtHhZW9JL8vSBfppfKtGyJK2bsqQiNsVTaMtEwNPeXl6DPe8WFGEMA+H0HnIYkXQh/IwioC0CAcgw8maohEgiTlQcsAePMca5PPXZUcFRBDVQolEcMLQexE9hl6JrQXz60AXmjWQEIjL2J3FEIrZYvvAIMA+0H0b3AAAAAElFTkSuQmCC">
+		<div>Translate</div>
+	</div>
+	<div class="img" id="cache">
+		<img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAGFBMVEU0eJn9/v/V7fdorc+izeY0ibJJmcU0eKpg4OJ7AAAA+klEQVQ4y92TvRaCMAyFqwisXkBdLf6teI4600Fn4AnAwZn3n7SpEUrlBbgLbT+SG0IqJqfwkkb7q3vuK2g9nPcVjO4DUAHJ7XWRQGadB8COngqxBUokLS08OySUehtuKeeqBxaUwNfAR2RlyhmIpp9LRa0GSxO97SxMKQEBH+sf8LBhoMOTnndOgLA4d+5z4+cZUKJlMENNYPXdFeb4mUqkaU7AxNdsDUDX68U2EArASRcqM07FRSEqaBEPzBUOZnHO7HIXHBzE9geKOy+qmlriipvoitvuin8UK8jYZWDRJNyGQSbpjI87cCMjehgZ6uO/ayDxuQZT0xtDRx6KLBMTCgAAAABJRU5ErkJggg==">
+		<div>Cached</div>
+	</div>
+	<script type="text/javascript" src="popup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+2017/04/21-04:43:05.958 7536 Reusing MANIFEST /home/pringled/.config/chromium/Default/IndexedDB/http_hilltopads.net_0.indexeddb.leveldb/MANIFEST-000001
+2017/04/21-04:43:06.885 7536 Current memtable full; waiting...
+2017/04/21-04:43:06.885 25952 Level-0 table #5: started
+2017/04/21-04:43:06.963 25952 Level-0 table #5: 786 bytes OK
+2017/04/21-04:43:07.108 25952 Delete type=0 #3
+2017/04/21-04:43:07.109 25952 Level-0 table #7: started
+2017/04/21-04:43:07.109 25952 Level-0 table #7: 0 bytes OK
+2017/04/21-04:43:07.435 25952 Delete type=0 #4
+2017/04/21-04:43:07.435 25952 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

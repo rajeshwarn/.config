@@ -1,0 +1,3 @@
+2017/04/22-17:11:12.053 5610 Reusing MANIFEST /home/pringled/.config/chromium/Default/IndexedDB/https_inbox.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/04/22-17:11:12.067 5610 Recovering log #3
+2017/04/22-17:11:12.144 5610 Reusing old log /home/pringled/.config/chromium/Default/IndexedDB/https_inbox.google.com_0.indexeddb.leveldb/000003.log 

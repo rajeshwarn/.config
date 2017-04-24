@@ -1,0 +1,14 @@
+{
+   "clickToPop": {
+      "message": "popout"
+   },
+   "description": {
+      "message": "小部件來訪問雅虎郵件的谷歌瀏覽器, 容易和簡單檢查雅虎郵件和郵件箱未讀計數"
+   },
+   "name": {
+      "message": "雅虎郵件-瀏覽器小部件"
+   },
+   "openFullMailBox": {
+      "message": "open full mail box in tab"
+   }
+}

@@ -1,0 +1,9 @@
+<b>Configuration name: 1</b>	
+Saved at Fri Apr 14 10:19:49 PDT 2017
+
+X terminal config:  /home/pringled/.bashrc;/home/pringled/.Xresources\n
+Openbox theme:  firbox\n
+GTK theme:  oomox-hmmm\n
+Running Tint2s:\t\n\tDefault Tint2\n
+Background set with nitrogen:\n/home/pringled/Pictures/17 - 1 (1).jpg;\n/home/pringled/Pictures/17 - 1 (1).jpg;\n
+Lightdm config:  /etc/lightdm/lightdm-gtk-greeter.conf\n
