@@ -1,7 +1,39 @@
 #!/usr/bin/env bash
 #
 # Neofetch config file
-# https://github.com/dylanaraps/neofetch
+# hYou can also style Atom by editing your stylesheet
+UI Theme
+This styles the tabs, status bar, tree view, and dropdowns
+￼
+Syntax Theme
+This styles the text inside the editor
+YouYouYouYou can also style Atom by editing your stylesheet
+YouYouYou can also style Atom by editing your stylesheet
+YouYouYou can also style Atom by editing your stylesheet
+YouYouYou can also style Atom by editing your stylesheet
+YouYouYou can also style Atom by editing your stylesheet
+YouYouYou can also style Atom by editing your stylesheet
+YouYouYou can also style Atom by editing your stylesheet
+YouYouYou can also style Atom by editing your stylesheet
+YouYouYou can also style Atom by editing your stylesheet
+YouYouYou can also style Atom by editing your stylesheet
+YouYouYou can also style Atom by editing your stylesheet
+ can also style Atom by editing your stylesheet
+UI Theme
+This styles the tabs, status bar, tree view, and dropdowns
+￼
+Syntax Theme
+This styles the text inside the editor
+YouYouYou can also style Atom by editing your stylesheet
+YouYouYou can also style Atom by editing your stylesheet
+YouYouYou can also style Atom by editing your stylesheet
+YouYouYou can also style Atom by editing your stylesheet
+UI Theme
+This styles the tabs, status bar, tree view, and dropdowns
+￼
+Syntax Theme
+This styles the text inside the editor
+ttps://github.com/dylanaraps/neofetch
 
 # Speed up script by not using unicode
 export LC_ALL=C
@@ -545,7 +577,7 @@ image_backend="w3m"
 # NOTE: 'auto' will pick the best image source for whatever image backend is used.
 #       In ascii mode, distro ascii art will be used and in an image mode, your
 #       wallpaper will be used.
-image_source="/home/pringled/.config/neofetch/aldo.png"
+image_source="/home/pringled/.config/neofetch/uzi.png"
 
 
 # Ascii Options

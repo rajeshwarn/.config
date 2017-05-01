@@ -1,19 +1,13 @@
-2017/04/23-13:45:59.675 5609 Reusing MANIFEST /home/pringled/.config/chromium/Default/Extension State/MANIFEST-000001
-2017/04/23-13:45:59.676 5609 Recovering log #266
-2017/04/23-13:46:01.949 5609 Reusing old log /home/pringled/.config/chromium/Default/Extension State/000266.log 
-2017/04/23-13:46:03.821 6055 Compacting 2@0 + 1@1 files
-2017/04/23-13:46:07.207 6055 Generated table #269@0: 42 keys, 36299 bytes
-2017/04/23-13:46:07.207 6055 Compacted 2@0 + 1@1 files => 36299 bytes
-2017/04/23-13:46:08.080 6055 compacted to: files[ 0 1 1 0 0 0 0 ]
-2017/04/23-13:46:08.081 6055 Delete type=2 #263
-2017/04/23-13:46:08.081 6055 Delete type=2 #265
-2017/04/23-13:46:08.082 6055 Delete type=2 #267
-2017/04/23-15:15:03.038 6055 Level-0 table #271: started
-2017/04/23-15:15:03.204 6055 Level-0 table #271: 1796528 bytes OK
-2017/04/23-15:15:03.361 6055 Delete type=0 #266
-2017/04/23-16:50:51.493 6055 Level-0 table #273: started
-2017/04/23-16:50:51.796 6055 Level-0 table #273: 1903105 bytes OK
-2017/04/23-16:50:51.919 6055 Delete type=0 #270
-2017/04/23-20:30:03.125 6055 Level-0 table #275: started
-2017/04/23-20:30:03.298 6055 Level-0 table #275: 1691650 bytes OK
-2017/04/23-20:30:03.403 6055 Delete type=0 #272
+2017/04/30-21:09:38.424 1202 Reusing MANIFEST /home/pringled/.config/chromium/Default/Extension State/MANIFEST-000001
+2017/04/30-21:09:38.426 1202 Recovering log #338
+2017/04/30-21:09:39.851 1202 Reusing old log /home/pringled/.config/chromium/Default/Extension State/000338.log 
+2017/04/30-21:09:42.045 1667 Compacting 2@0 + 1@1 files
+2017/04/30-21:09:43.185 1667 Generated table #341@0: 42 keys, 35333 bytes
+2017/04/30-21:09:43.186 1667 Compacted 2@0 + 1@1 files => 35333 bytes
+2017/04/30-21:09:43.398 1667 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/04/30-21:09:43.399 1667 Delete type=2 #339
+2017/04/30-21:09:43.400 1667 Delete type=2 #335
+2017/04/30-21:09:43.400 1667 Delete type=2 #337
+2017/04/30-21:41:38.687 1667 Level-0 table #343: started
+2017/04/30-21:41:38.813 1667 Level-0 table #343: 889834 bytes OK
+2017/04/30-21:41:38.884 1667 Delete type=0 #338

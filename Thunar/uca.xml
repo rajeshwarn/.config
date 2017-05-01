@@ -162,4 +162,18 @@
 	<text-files/>
 	<video-files/>
 </action>
+<action>
+	<icon></icon>
+	<name>2x</name>
+	<unique-id>1493178879961867-1</unique-id>
+	<command>convert -size 32x32 -scale 32x32 $SOURCE $DEST
+</command>
+	<description></description>
+	<upper>-1</upper>
+	<lower>-1</lower>
+	<patterns>*</patterns>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+</action>
 </actions>

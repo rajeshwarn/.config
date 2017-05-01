@@ -1,3 +1,3 @@
-2017/04/22-22:30:48.800 17556 Reusing MANIFEST /home/pringled/.config/chromium/Default/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb/MANIFEST-000001
-2017/04/22-22:30:48.801 17556 Recovering log #3
-2017/04/22-22:30:49.063 17556 Reusing old log /home/pringled/.config/chromium/Default/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb/000003.log 
+2017/04/29-14:17:46.733 1475 Reusing MANIFEST /home/pringled/.config/chromium/Default/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb/MANIFEST-000001
+2017/04/29-14:17:46.733 1475 Recovering log #3
+2017/04/29-14:17:46.734 1475 Reusing old log /home/pringled/.config/chromium/Default/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb/000003.log 

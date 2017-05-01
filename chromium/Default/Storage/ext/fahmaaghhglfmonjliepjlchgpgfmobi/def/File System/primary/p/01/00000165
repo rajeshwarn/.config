@@ -1,0 +1,30 @@
+
+
+-------session starts-------
+
+[5-1 6:9:29.855] INFO: MediaGallery: name=/home/pringled/Music, galleryId=1, isMediaDevice=false, deviceId=undefined
+[5-1 6:9:29.857] INFO: MediaGallery: name=/home/pringled/Pictures, galleryId=2, isMediaDevice=false, deviceId=undefined
+[5-1 6:9:29.858] INFO: MediaGallery: name=/home/pringled/Videos, galleryId=3, isMediaDevice=false, deviceId=undefined
+[5-1 6:9:29.859] INFO: Starts a quick scan on /home/pringled/Music
+[5-1 6:9:29.860] INFO: Iterating over dir / from source /home/pringled/Music
+[5-1 6:9:29.861] INFO: Starts a quick scan on /home/pringled/Pictures
+[5-1 6:9:29.863] INFO: Iterating over dir / from source /home/pringled/Pictures
+[5-1 6:9:29.864] INFO: Starts a quick scan on /home/pringled/Videos
+[5-1 6:9:29.866] INFO: Iterating over dir / from source /home/pringled/Videos
+[5-1 6:9:29.870] INFO: Starting periodic scan.
+[5-1 6:9:29.893] INFO: /home/pringled/Music contains music file
+[5-1 6:9:29.900] INFO: Iterating over dir /smplayer_screenshots from source /home/pringled/Pictures
+[5-1 6:9:29.913] INFO: /home/pringled/Videos does not contain music file
+[5-1 6:9:29.918] INFO: /home/pringled/Pictures does not contain music file
+[5-1 6:9:29.995] INFO: Got the drag_and_drop directory
+[5-1 6:9:30.2] INFO: lsUserAddedMusicSourceIds=null
+[5-1 6:9:30.2] INFO: lsLastTrackFailureLoggingTime=null
+[5-1 6:9:30.2] INFO: lsSyncMusicEnabled=null
+[5-1 6:9:30.2] INFO: lsAppActivated=false
+[5-1 6:9:30.2] INFO: lsUserSelectedDownloadDirId=null
+[5-1 6:9:30.6] INFO: lsDefaultDownloadLocationId=null
+[5-1 6:9:30.6] INFO: Setting is already: lsAlwaysUseDefaultDownloadLocation = false
+[5-1 6:9:30.6] INFO: Setting is already: lsDefaultDownloadLocationId = null
+[5-1 6:9:30.140] WARNING: Tier change detected
+[5-1 6:9:30.141] INFO: Fetched user settings from server.
+[5-1 6:9:30.145] INFO: chromeapp:E ready

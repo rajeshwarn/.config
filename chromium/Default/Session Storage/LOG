@@ -1,33 +1,3 @@
-2017/04/23-13:46:12.743 5619 Reusing MANIFEST /home/pringled/.config/chromium/Default/Session Storage/MANIFEST-000001
-2017/04/23-13:46:12.744 5619 Recovering log #441
-2017/04/23-13:46:12.752 5619 Reusing old log /home/pringled/.config/chromium/Default/Session Storage/000441.log 
-2017/04/23-16:20:15.517 6055 Level-0 table #445: started
-2017/04/23-16:20:15.689 6055 Level-0 table #445: 11644 bytes OK
-2017/04/23-16:20:15.779 6055 Delete type=0 #441
-2017/04/23-16:20:40.386 6055 Level-0 table #447: started
-2017/04/23-16:20:40.455 6055 Level-0 table #447: 67200 bytes OK
-2017/04/23-16:20:40.523 6055 Delete type=0 #444
-2017/04/23-16:27:29.954 6055 Level-0 table #449: started
-2017/04/23-16:27:30.120 6055 Level-0 table #449: 99987 bytes OK
-2017/04/23-16:27:30.417 6055 Delete type=0 #446
-2017/04/23-16:27:30.417 6055 Compacting 4@0 + 4@1 files
-2017/04/23-16:27:30.613 6055 Generated table #450@0: 2910 keys, 214082 bytes
-2017/04/23-16:27:30.613 6055 Compacted 4@0 + 4@1 files => 214082 bytes
-2017/04/23-16:27:30.691 6055 compacted to: files[ 0 1 1 0 0 0 0 ]
-2017/04/23-16:27:30.692 6055 Delete type=2 #439
-2017/04/23-16:27:30.692 6055 Delete type=2 #437
-2017/04/23-16:27:30.693 6055 Delete type=2 #445
-2017/04/23-16:27:30.693 6055 Delete type=2 #449
-2017/04/23-16:27:30.693 6055 Delete type=2 #440
-2017/04/23-16:27:30.694 6055 Delete type=2 #447
-2017/04/23-16:27:30.694 6055 Delete type=2 #438
-2017/04/23-16:27:30.695 6055 Delete type=2 #442
-2017/04/23-16:27:38.662 6055 Level-0 table #452: started
-2017/04/23-16:27:38.742 6055 Level-0 table #452: 65721 bytes OK
-2017/04/23-16:27:38.821 6055 Delete type=0 #448
-2017/04/23-16:27:48.343 6055 Level-0 table #454: started
-2017/04/23-16:27:48.420 6055 Level-0 table #454: 29005 bytes OK
-2017/04/23-16:27:48.498 6055 Delete type=0 #451
-2017/04/23-16:29:50.932 6055 Level-0 table #456: started
-2017/04/23-16:29:51.011 6055 Level-0 table #456: 44015 bytes OK
-2017/04/23-16:29:51.089 6055 Delete type=0 #453
+2017/04/30-21:09:37.920 1229 Reusing MANIFEST /home/pringled/.config/chromium/Default/Session Storage/MANIFEST-000001
+2017/04/30-21:09:37.920 1229 Recovering log #466
+2017/04/30-21:09:38.592 1229 Reusing old log /home/pringled/.config/chromium/Default/Session Storage/000466.log 

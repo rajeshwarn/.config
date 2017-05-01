@@ -1,1 +1,0 @@
-!function(){"use strict";-1!==location.search.indexOf("standalone=1")&&document.body.classList.add("standalone"),chrome.tabs.getCurrent(function(n){document.body.classList.toggle("standalone","undefined"!=typeof n)})}();

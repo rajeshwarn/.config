@@ -1,6 +1,3 @@
-2017/04/23-22:40:15.987 942 Reusing MANIFEST /home/pringled/.config/vivaldi-snapshot/Default/Extension State/MANIFEST-000001
-2017/04/23-22:40:15.997 942 Recovering log #17
-2017/04/23-22:40:16.451 942 Reusing old log /home/pringled/.config/vivaldi-snapshot/Default/Extension State/000017.log 
-2017/04/24-03:08:35.350 12849 Level-0 table #22: started
-2017/04/24-03:08:35.607 12849 Level-0 table #22: 1651498 bytes OK
-2017/04/24-03:08:35.812 12849 Delete type=0 #17
+2017/04/30-21:32:56.288 3314 Reusing MANIFEST /home/pringled/.config/vivaldi-snapshot/Default/Extension State/MANIFEST-000001
+2017/04/30-21:32:56.289 3314 Recovering log #38
+2017/04/30-21:32:56.543 3314 Reusing old log /home/pringled/.config/vivaldi-snapshot/Default/Extension State/000038.log 

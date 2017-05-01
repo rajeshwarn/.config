@@ -42,23 +42,23 @@ mainwin.geometry.x 203
 mainwin.geometry.y 248
 playback.loop 0
 playback.order 0
-playback.volume -20.71428
-playlist.current 4
+playback.volume -10.71426
+playlist.current 5
 playlist.cursor.0 6
 playlist.cursor.1 1
 playlist.cursor.2 4
 playlist.cursor.3 27
-playlist.cursor.4 25
-playlist.cursor.5 10
-playlist.cursor.6 14
+playlist.cursor.4 16
+playlist.cursor.5 52
+playlist.cursor.6 0
 playlist.cursor.7 2
 playlist.scroll.0 0
 playlist.scroll.1 55
-playlist.scroll.2 21
-playlist.scroll.3 284
-playlist.scroll.4 240
-playlist.scroll.5 80
-playlist.scroll.6 139
+playlist.scroll.2 34
+playlist.scroll.3 265
+playlist.scroll.4 200
+playlist.scroll.5 855
+playlist.scroll.6 0
 playlist.scroll.7 0
 playlist.scroll.cursorfollowplayback 1
 playlist.tab.00000 New Playlist (3)
@@ -67,10 +67,11 @@ playlist.tab.00002 New Playlist
 playlist.tab.00003 New Playlist (2)
 playlist.tab.00004 Sound Cloud
 playlist.tab.00005 New Playlist (1)
+playlist.tab.00006 New Playlist (5)
 resume.paused 0
-resume.playlist 4
-resume.position 26.517299
-resume.track 25
+resume.playlist 5
+resume.position -1.000000
+resume.track -1
 trkproperties.geometry.h 400
 trkproperties.geometry.w 400
 trkproperties.geometry.x 365

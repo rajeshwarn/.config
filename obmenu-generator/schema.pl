@@ -28,36 +28,42 @@ require "$ENV{HOME}/.config/obmenu-generator/config.pl";
 my $editor = $CONFIG->{editor};
 
 our $SCHEMA = [
-	{sep => 'APPLICATIONS'},
+	{sep => 'MENU'},
     #          COMMAND                 LABEL              ICON
-    {item => ['xdg-open .',       'File Manager', 'system-file-manager']},
     {item => ['xfce4-terminal',            'Terminal',     'utilities-terminal']},
-    {item => ['pamac-manager',            'Add/Remove',  'system-run']},
-	{pipe => ["obbrowser", "Files", "drive-harddisk"]},
-    {sep => 'STUFF'},
+    {item => ['gmrun',            'Run',  'system-run']},
+    {sep => ' '},
 
     #          NAME            LABEL                ICON
+    
+
+ 
+    {begin_cat => ['Applications', 'Interface']},
     {cat => ['utility',     'Accessories', 'applications-utilities']},
-    {cat => ['development', 'Development', 'applications-development']},
-    {cat => ['education',   'Education',   'applications-science']},
     {cat => ['game',        'Games',       'applications-games']},
     {cat => ['graphics',    'Graphics',    'applications-graphics']},
     {cat => ['audiovideo',  'Multimedia',  'applications-multimedia']},
     {cat => ['network',     'Network',     'applications-internet']},
-    {cat => ['office',      'Office',      'applications-office']},
-    {cat => ['other',       'Other',       'applications-other']},
     {cat => ['settings',    'Settings',    'applications-accessories']},
     {cat => ['system',      'System',      'applications-system']},
-    {begin_cat => ['Faves', 'Interface']},
+      {end_cat => undef},
+          {cat => ['settings',    'Settings',    'applications-accessories']},
+    {cat => ['system',      'System',      'applications-system']},
+      
+    {sep => ' '},
+    {begin_cat => ['Favorites', 'Interface']},
+		    {item => ['xdg-open .',       'File Manager', 'system-file-manager']},
+
         {item => ['vivaldi-snapshot',    'Vivaldi',             'accessories-text-editor']},
         {item => ['lxappearance', 'LXappearance',  'accessories-text-editor']},
         {item => ['Atom',       'Atom',            'accessories-text-editor']},
         {item => ['gcolor3',    'Color Picker', 'accessories-text-editor']},
+        {item => ['gcolor2',    'gcolor2', 'accessories-text-editor']},
+        {item => ['pinta',    'Pinta', 'accessories-text-editor']},
         {item    => ['pamac-manager', 'Add/Remove', 'view-refresh']},
         {item      => ["oomox", 'Oomox', 'text-x-generic']},
         {item      => ["$gksudo lightdm-gtk-greeter-settings", 'LightDM', 'text-x-generic']},
       {end_cat => undef},
-    {sep => 'TWEAKS'},
     
     #          NAME            LABEL                ICON
     {cat => ['Interface',     'Interface', 'applications-utilities']},
@@ -95,15 +101,32 @@ our $SCHEMA = [
         {item      => ["oomox-gui", 'Oomox', 'text-x-generic']},
         {item      => ["nitrogen", 'wallpaper', 'text-x-generic']},
         {item      => ["sudo lightdm-gtk-greeter-settings", 'LightDM', 'text-x-generic']},
+        {cat => ['settings',    'Settings',    'applications-accessories']},
       {end_cat => undef},
       
-      {item => ['scrot -d 10',            'screenshot',  'system-run']},
 
     ## Custom advanced settings
     {sep       => undef},
     {begin_cat => ['Advanced ', 'applications-engineering']},
+    {sep => 'MENU'},
+    #          COMMAND                 LABEL              ICON
+    {item => ['xdg-open .',       'File Manager', 'system-file-manager']},
+    {item => ['xfce4-terminal',            'Terminal',     'utilities-terminal']},
+    {item => ['pamac-manager',            'Add/Remove',  'system-run']},
+	{pipe => ["obbrowser", "Files", "drive-harddisk"]},
+    {sep => ' '},
     
       # Openbox category
+       {begin_cat => ['UI', 'Interface']},
+        {item => ['al-obthemes',    'ALOB Themes Manager',             'accessories-text-editor']},
+        {item => ['lxappearance', 'LXappearance',  'accessories-text-editor']},
+        {item => ['xfce4-appearance-settings',       'GTK Appearance',            'accessories-text-editor']},
+        {item => ['gcolor3',    'Color Picker', 'accessories-text-editor']},
+        {item    => ['tint2conf', 'tint2', 'view-refresh']},
+        {item      => ["oomox", 'Oomox', 'text-x-generic']},
+        {item      => ["gksudo lightdm-gtk-greeter-settings", 'LightDM', 'text-x-generic']},
+      {end_cat => undef},
+      
       {begin_cat => ['UI', 'Interface']},
         {item => ['al-obthemes',    'ALOB Themes Manager',             'accessories-text-editor']},
         {item => ['lxappearance', 'LXappearance',  'accessories-text-editor']},
@@ -156,13 +179,13 @@ our $SCHEMA = [
     {sep => undef},
 
     ## The xscreensaver lock command
+    	{pipe => ["obbrowser", "Files", "drive-harddisk"]},
+
     
 
     
-    {item => ['gmrun',            'run',  'system-run']},
 
     ## This uses the 'oblogout' menu
-    {item => ['scrot -d 10',            'screenshot',  'system-run']},
     
     ## This option uses the default Openbox's action "Exit"
     {exit => ['Exit', 'application-exit']},
